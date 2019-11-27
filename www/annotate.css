@@ -1,0 +1,82 @@
+.spectrum {
+  position: absolute;
+  left: 0;
+  top: 0;
+  /* width: 600px; */
+  height: 400px;
+  /* z-index : -10 */
+}
+
+.wrapper {
+  position: relative;
+  /* width: 600px; */
+  height: 400px;
+  visibility: visible;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  /* z-index : -5 */
+}
+
+#allSpectrum {
+  position: relative;
+ /* z-index: 30; */
+}
+
+th, td {
+  font-weight: unset;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+option {
+  font-size: 14px;
+}
+
+#detailSpectrum {
+   position: absolute;
+  left: 0;
+  top: 0;
+  /* position: relative; */
+ /* z-index: 30; */
+}
+
+#details {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+#controls {
+  position: relative;
+  top : 100px;
+  left : 650px;
+  height: 128px;
+  width: 300px;
+  border: solid 3px #ff7347; 
+}
+
+#markedAudio {
+  padding-top : 12px;
+}
+
+div>.selectize-dropdown {
+  width: 160px;
+}
+
+.selectize-input {
+  width: 160px;
+}
+
+div>.selectize-input {
+  width: 160px;
+}
+
+.selectize-dropdown {
+  width: 160px;
+}
